@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3" Serie="MKP" Folio="49712" Fecha="2021-12-01T16:19:56" Sello="HsCNoHqGW0dr9QQZ+NZmE7849dec0KA6bDIobCF1y12baJbbkvcpQOHrF0vXkv+YCyaPL3OGB16kKlolaDWLS+gbx8M/ugOrCJWomnSLJJ+eXijDPbAlFP5KmymHlE9vXmm+pCuwZ4ukia6VjFvwtphlJoWq2ufw+hAvu6/+2y9p1mCSqWuT+eI1aniCZs1OGidA1ElQyzeC796I/G0lgvgey5R3IY11xpdGE+YnWq3mtTVrO8q3Mpuz4xnyaU6v/ROJ7s5rT/T1BBabjzmWrB/zgca2mlf5cuqf+Ns/u6qJDy7wZy2FcZeuwFCg9fOvV0Qav5igB7CTLfIYkrf/Aw==" FormaPago="04" NoCertificado="00001000000410635811" Certificado="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" SubTotal="1720.69" Moneda="MXN" TipoCambio="1" Total="1996.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="01900">
+  <cfdi:Emisor Rfc="AME750808D48" Nombre="ADIDAS DE MEXICO SA DE CV" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="IAPL931126JAA" Nombre="Luis Gerardo Illanes Palacios" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="53102900" Cantidad="2.000000" ClaveUnidad="H87" Unidad="Pza" Descripcion="Playera adidas Designed 2 Move 11-12 anos Talla 11-12 años" ValorUnitario="343.965517" Importe="687.931034">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="687.931031" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="110.068965" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="53102900" Cantidad="2.000000" ClaveUnidad="H87" Unidad="Pza" Descripcion="Playera Adicolor Classics 3 Franjas S Talla S" ValorUnitario="516.379311" Importe="1032.758621">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1032.758619" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="165.241379" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="275.31">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="275.310344" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento><tfd:TimbreFiscalDigital UUID="b3197fc1-1982-4d03-8b35-73840862ac1f" FechaTimbrado="2021-12-01T18:20:00" Version="1.1" SelloCFD="HsCNoHqGW0dr9QQZ+NZmE7849dec0KA6bDIobCF1y12baJbbkvcpQOHrF0vXkv+YCyaPL3OGB16kKlolaDWLS+gbx8M/ugOrCJWomnSLJJ+eXijDPbAlFP5KmymHlE9vXmm+pCuwZ4ukia6VjFvwtphlJoWq2ufw+hAvu6/+2y9p1mCSqWuT+eI1aniCZs1OGidA1ElQyzeC796I/G0lgvgey5R3IY11xpdGE+YnWq3mtTVrO8q3Mpuz4xnyaU6v/ROJ7s5rT/T1BBabjzmWrB/zgca2mlf5cuqf+Ns/u6qJDy7wZy2FcZeuwFCg9fOvV0Qav5igB7CTLfIYkrf/Aw==" NoCertificadoSAT="00001000000505563741" SelloSAT="D3RiROrN8Fin6AU86ZTnldNn7YYpMqWS06JDAaU4akWznVWW7DKHsRTCvGGjpXpS5rlOTpMx+ktyOUmGhqTgF7LqH+rK1Y7wf9rqsIWbNJW+ZST/ZehELebOPxPytBV93IY3HVhyPMZX8ITdrSdwaw0/9A5AYECCO9zKDHQJZyHDHP0Jg3UYOtXq2dJ5TCZ3/KiyHK/J1LXgSsvKio3Mxg4DNCUVH/HIkLn6XjOOTDvuZoXCjYFTEJRLbXVXnWuCYnxppdhJdS1BDeTO/NtpK3sD8vh1maLw+rHu6FjtJ0Spxl/q7d7uNc8tPO+idi4fRqmaQZXRsA9M6HGxk9muLw==" RfcProvCertif="MIS1112095W0" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" /></cfdi:Complemento><cfdi:Addenda xmlns:ecfd="http://www.edxsolutions.com/schemas/strict" xsi:schemaLocation="http://www.edxsolutions.com/schemas/strict http://www.edxsolutions.com/schemas/strict/ecfd.xsd">
+    <ecfd:ECFD version="1.0">
+      <ecfd:Documento ID="T33MKP49712">
+        <ecfd:Encabezado>
+          <ecfd:IdDoc>
+            <ecfd:NroAprob>82021</ecfd:NroAprob>
+            <ecfd:AnoAprob>2021</ecfd:AnoAprob>
+            <ecfd:Tipo>33</ecfd:Tipo>
+            <ecfd:Serie>MKP</ecfd:Serie>
+            <ecfd:Folio>49712</ecfd:Folio>
+            <ecfd:Estado>ORIGINAL</ecfd:Estado>
+            <ecfd:FechaEmis>2021-12-01T16:19:56</ecfd:FechaEmis>
+            <ecfd:FormaPago>PUE</ecfd:FormaPago>
+            <ecfd:MedioPago>04</ecfd:MedioPago>
+            <ecfd:LugarExpedicion>01900</ecfd:LugarExpedicion>
+            <ecfd:FechaFolioFiscalOrig>0001-01-01T00:00:00</ecfd:FechaFolioFiscalOrig>
+            <ecfd:MontoFolioFiscalOrig>0</ecfd:MontoFolioFiscalOrig>
+          </ecfd:IdDoc>
+          <ecfd:ExEmisor>
+            <ecfd:RFCEmisor>AME750808D48</ecfd:RFCEmisor>
+            <ecfd:NmbEmisor>ADIDAS DE MEXICO SA DE CV</ecfd:NmbEmisor>
+            <ecfd:DomFiscal>
+              <ecfd:Calle>Boulevard Adolfo Ruiz Cortines</ecfd:Calle>
+              <ecfd:NroExterior>3642</ecfd:NroExterior>
+              <ecfd:NroInterior>piso 1</ecfd:NroInterior>
+              <ecfd:Colonia>Jardines del Pedregal</ecfd:Colonia>
+              <ecfd:Localidad>CDMX</ecfd:Localidad>
+              <ecfd:Municipio>Alvaro Obregon</ecfd:Municipio>
+              <ecfd:Estado>CDMX</ecfd:Estado>
+              <ecfd:Pais>MEX</ecfd:Pais>
+              <ecfd:CodigoPostal>01900</ecfd:CodigoPostal>
+            </ecfd:DomFiscal>
+            <ecfd:LugarExped>
+              <ecfd:Pais>MEX - México</ecfd:Pais>
+              <ecfd:CodigoPostal>01900</ecfd:CodigoPostal>
+            </ecfd:LugarExped>
+          </ecfd:ExEmisor>
+          <ecfd:ExReceptor>
+            <ecfd:RFCRecep>IAPL931126JAA</ecfd:RFCRecep>
+            <ecfd:NmbRecep>Luis Gerardo Illanes Palacios</ecfd:NmbRecep>
+            <ecfd:UsoCFDI>G03</ecfd:UsoCFDI>
+            <ecfd:DomFiscalRcp>
+              <ecfd:Pais>MEX</ecfd:Pais>
+            </ecfd:DomFiscalRcp>
+          </ecfd:ExReceptor>
+          <ecfd:Totales>
+            <ecfd:Moneda>MXN</ecfd:Moneda>
+            <ecfd:FctConv>1</ecfd:FctConv>
+            <ecfd:SubTotal>1720.69</ecfd:SubTotal>
+            <ecfd:MntDcto>0.00</ecfd:MntDcto>
+            <ecfd:MntImp>275.31</ecfd:MntImp>
+            <ecfd:VlrPagar>1996.00</ecfd:VlrPagar>
+            <ecfd:VlrPalabras>(Un mil novecientos noventa y seis pesos 00/100 M.N.)</ecfd:VlrPalabras>
+          </ecfd:Totales>
+          <ecfd:ExImpuestos>
+            <ecfd:TipoImp>002</ecfd:TipoImp>
+            <ecfd:TipoFactor>Tasa</ecfd:TipoFactor>
+            <ecfd:TasaImp>0.160000</ecfd:TasaImp>
+            <ecfd:MontoImp>275.310344</ecfd:MontoImp>
+          </ecfd:ExImpuestos>
+        </ecfd:Encabezado>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>1</ecfd:NroLinDet>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:ClaveProdServ>53102900</ecfd:ClaveProdServ>
+          <ecfd:DscItem>Playera adidas Designed 2 Move 11-12 anos Talla 11-12 años</ecfd:DscItem>
+          <ecfd:QtyItem>2.000000</ecfd:QtyItem>
+          <ecfd:ClaveUnidad>H87</ecfd:ClaveUnidad>
+          <ecfd:UnmdItem>Pza</ecfd:UnmdItem>
+          <ecfd:PrcBrutoItem>343.965517</ecfd:PrcBrutoItem>
+          <ecfd:PrcNetoItem>343.96551</ecfd:PrcNetoItem>
+          <ecfd:DescuentoMonto>0.000000</ecfd:DescuentoMonto>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>002</ecfd:TipoImp>
+            <ecfd:TasaImp>0.160000</ecfd:TasaImp>
+            <ecfd:MontoImp>110.068965</ecfd:MontoImp>
+            <ecfd:MontoBaseImp>687.931031</ecfd:MontoBaseImp>
+            <ecfd:TipoFactor>Tasa</ecfd:TipoFactor>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>687.931034</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:Detalle>
+          <ecfd:NroLinDet>2</ecfd:NroLinDet>
+          <ecfd:DscLang>ES</ecfd:DscLang>
+          <ecfd:ClaveProdServ>53102900</ecfd:ClaveProdServ>
+          <ecfd:DscItem>Playera Adicolor Classics 3 Franjas S Talla S</ecfd:DscItem>
+          <ecfd:QtyItem>2.000000</ecfd:QtyItem>
+          <ecfd:ClaveUnidad>H87</ecfd:ClaveUnidad>
+          <ecfd:UnmdItem>Pza</ecfd:UnmdItem>
+          <ecfd:PrcBrutoItem>516.379311</ecfd:PrcBrutoItem>
+          <ecfd:PrcNetoItem>516.37931</ecfd:PrcNetoItem>
+          <ecfd:DescuentoMonto>0.000000</ecfd:DescuentoMonto>
+          <ecfd:ImpuestosDet>
+            <ecfd:TipoImp>002</ecfd:TipoImp>
+            <ecfd:TasaImp>0.160000</ecfd:TasaImp>
+            <ecfd:MontoImp>165.241379</ecfd:MontoImp>
+            <ecfd:MontoBaseImp>1032.758619</ecfd:MontoBaseImp>
+            <ecfd:TipoFactor>Tasa</ecfd:TipoFactor>
+          </ecfd:ImpuestosDet>
+          <ecfd:MontoNetoItem>1032.758621</ecfd:MontoNetoItem>
+        </ecfd:Detalle>
+        <ecfd:TimeStamp>2021-12-01T18:19:58</ecfd:TimeStamp>
+      </ecfd:Documento>
+      <ecfd:Personalizados>
+        <ecfd:campoString name="OrdenDeCompra" />
+        <ecfd:campoString name="FechaOrdenDeCompra" />
+        <ecfd:campoString name="NumeroFolio" />
+        <ecfd:campoString name="FechaFolio" />
+        <ecfd:campoString name="GLNComprador" />
+        <ecfd:campoString name="ContactoComprador" />
+        <ecfd:campoString name="GLNVendedor" />
+        <ecfd:campoString name="ContactoVendedor" />
+        <ecfd:campoString name="Personalizado09" />
+        <ecfd:campoString name="Personalizado10" />
+        <ecfd:campoString name="Personalizado11" />
+        <ecfd:campoString name="Personalizado12" />
+        <ecfd:campoString name="Personalizado13" />
+        <ecfd:campoString name="Personalizado14" />
+        <ecfd:campoString name="Personalizado15" />
+        <ecfd:campoString name="Personalizado16" />
+        <ecfd:campoString name="Personalizado17" />
+        <ecfd:campoString name="Personalizado18" />
+        <ecfd:campoString name="Personalizado19" />
+        <ecfd:campoString name="Personalizado20" />
+        <ecfd:campoString name="Personalizado21" />
+        <ecfd:campoString name="Personalizado22" />
+        <ecfd:campoString name="Personalizado23" />
+        <ecfd:campoString name="Personalizado24" />
+        <ecfd:campoString name="Personalizado25" />
+        <ecfd:campoString name="Personalizado26" />
+        <ecfd:campoString name="Personalizado27" />
+        <ecfd:campoString name="Personalizado28" />
+        <ecfd:campoString name="Personalizado29" />
+        <ecfd:campoString name="Personalizado30" />
+        <ecfd:campoString name="Personalizado31" />
+        <ecfd:campoString name="NumeroTicket">6394406134-A</ecfd:campoString>
+        <ecfd:campoString name="TotalRef">1996.00</ecfd:campoString>
+        <ecfd:campoString name="Propina">0.0000</ecfd:campoString>
+        <ecfd:campoString name="Email">luisillanes26@gmail.com</ecfd:campoString>
+        <ecfd:campoString name="RegimenFiscal">601</ecfd:campoString>
+        <ecfd:campoString name="LugarDeExpedicion">01900</ecfd:campoString>
+        <ecfd:CustDetalle>
+          <ecfd:CustDetNroLin>1</ecfd:CustDetNroLin>
+          <ecfd:CustDetAFN_03>6394406134-A</ecfd:CustDetAFN_03>
+        </ecfd:CustDetalle>
+        <ecfd:CustDetalle>
+          <ecfd:CustDetNroLin>2</ecfd:CustDetNroLin>
+          <ecfd:CustDetAFN_03>6394406134-A</ecfd:CustDetAFN_03>
+        </ecfd:CustDetalle>
+      </ecfd:Personalizados>
+    </ecfd:ECFD>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

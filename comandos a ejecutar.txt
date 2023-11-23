@@ -1,0 +1,18 @@
+npm install cypress --save-dev
+npx cypress open
+npm install  --save-dev cypress-cucumber-preprocessor
+npm install  -D cypress-esbuild-preprocessor esbuild
+en script test colocar el comando cypress open
+connsola: npm run test
+TheBrainFamily/
+cypress-cucumber-preprocessor
+
+---------------------------------------------------------------------------
+npm install  --save-dev cypress-cucumber-preprocessor
+npm install cypress --save-dev
+npm install  --save-dev cypress-esbuild-preprocesso
+npm install  -D cypress-esbuild-preprocessor esbuild
+npm install -D cypress@12.7.0
+npm run cypress:runner
+
+npm i -D cypress @bahmutov/cypress-esbuild-preprocessor esbuild

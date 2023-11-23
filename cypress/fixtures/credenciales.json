@@ -1,0 +1,69 @@
+[
+  {
+    "tipeUser":"Seller_nuevo",
+    "userEmail":"jcgasca.gu@gmail.com",
+    "password":"P@ss2023!",
+    "nombre":"Julio",
+    "apellido":"Gasca",
+    "proveedor": "123432",
+    "idMirakl":"2277",
+    "telefono": "7121690253",
+    "numInt": "54080",
+    "numExt": "NA",
+    "Calle": "RANCHERIA DE MAÑI",
+    "asentamiento":"México",
+    "codigoPostal" : "50840",
+    "municipio": "jiquipilco",
+    "ciudad": "Mexico",
+    "estado":"Toluca",
+    "pais":"CDMX",
+    "articulos":"Electronicos"
+    
+  },
+  {
+    "tipeUser":"Administrador",
+    "userEmail":"jcgascag@liverpool.com.mx",
+    "password":"Liverpool1qazxsw2!@",
+    "nombre":"isra",
+    "apellido":"Gasca"
+  },
+  {
+    "tipeUser":"Operador",
+    "userEmail":"cesar.gasca@uicui.edu.mx",
+    "password":"Liverpool1qazxsw2!$",
+    "nombre":"cui",
+    "apellido":"Gasca"
+  },
+  {
+    "tipeUser":"Seller",
+    "userEmail":"jcgasca.gu@gmail.com",
+    "password":"Liverpool1qazxsw2!$",
+    "nombre":"gmail",
+    "apellido":"Gasca"
+  },
+  {
+    "tipeUser":"incorrecto",
+    "userEmail":"jc3432g@liverpool.com.mx",
+    "password":"234565432345"
+  },
+  {
+    "tipeUser":"Inexistente",
+    "userEmail":"jg@Inexistente.com",
+    "password":"234565432345"
+  },
+
+
+  
+  {
+  "type": "service_account",
+  "project_id": "cmpraas",
+  "private_key_id": "0e5b4ed427b9646b11a1fc9633802d75272d4d70",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCacEtTuQQnuxcA\n22PMgT0dF/kDqzypP5IkDHxal+yzwHIt5T+D1GHr+V6wVRhYTX2j6K16FydqZn85\nw1i5rDmyoV0AHEKSlL7G5pR3Fpw3LHWJl2NgryQ5049Rv495RHIROaoRfYqamn8T\nUUFIeEHA1IzsPqTl+rz9XzCQ+pKLY4liLBOMy3szaUwiAxExHEbINKOXFqvH/3Ap\n1UBdgZVAmAu32O26ctVDy7A3hYfpTiPHdN2+fNiP/LCjudjUItVhsxG22ogya0py\ne+3XS7IqtG/+IXWNCr2F1qRjTvlkvp4e7Pd/sFewa7sD1SEBcqTBAiJ85lbVbn42\niyt5Fj0jAgMBAAECggEAEpbeskqsYd3mtG8z8YtC4GwgyJzFdffVbupj04HC95X8\nCGM2RHd9e+ptx9rOTd6x91dL/kyoLWn9+WV2mg7NeR9sMtWz+7HUzts1VqpNjmSX\nF0M2Lo6WVTGOaEAfFHE1K7adrnJGizp6fkhDC+aRv5S2C7+0mIwYUIUzMtg+aHGY\nSblGLhNKwsDAAfZZt6JSU3Z79tQuXPP41alXI5U0yoLz9nYxGYITcQdZ3/PBiXwC\n0GOTjAG6ANMd0cUEAJqFQm8pKW2PhTm/KHEjSrniSfg+7y7CEsntve1AAW96Ia9Q\n7SQ24RmcupZnHJLKaURWNDJBKJKq7jeIn4oaNc2L9QKBgQDRvEdR9/e8qetc3cYg\nF0U0XyD8mvYTiOKgUx8qCwhXQlQNipt+1MKG2v+RqLqPLRISmb/bco0xRhmctIeQ\ni6trS5xXoIrVT5lJzQpbUd5ZY0nTKvDv3yGyxI73zRWHo21hnRe0nt/8P/6F78b3\n7HVd/80bq33KDMLJlNCVmwinzwKBgQC8gWpIyFRwcGwT0TMBbMl1n8gCIhun3jL3\nq2oKrJ1qEpbLt1Xy7EVUMt5LuLeMnNXhn3jgfq7Dx7NicK+78HBYIBpXm5XxhqGB\nny/ddT5z5cpqN8kSeN3xPGd+78bvKW0Pg29T8BlliqTO0mhQQANYjcFfD7jzTe/x\nFoiZzBUWbQKBgQCHCPTWVpO/eZta4ELWmITrEjB30wGKVECtPrc6532ISOE7ErnI\nsA1KrCeNzZfH5RnUtf7ruFYlml+VIDqEGxjT7QuM84VPj38/H++CGjTRUnbOqcAU\ngJH+ukTeUMGC4frjtTP1C7FkhINIErgFGc37Jl4VaZWEiDDFfrXJDNdGywKBgA2E\nDfXX/03skaM+HbUdcrhvU2zruyXnJapibQEE7Wh8mrlSlOQNEs99sjilrutzF1bN\nE2KtUqSQ/gix4bfM/pEjBCCB9FdT+uKLYmgzjt3KfR/ujgk4B1nTpewRDyd4xewV\n1XakQX3pWfXGWlperJ690z6Ypv8y+GBF6Fd2rZBlAoGBAMKsePTghics7qiAn8cM\nNFXil62D02uZndcZmPk9yISV33418ZgYkIsknCB/SeuzL5U+ALr2I6YqY3dbYgp6\nf3FqqFWTo73MXev64Dt4TchlJaPdU7F0rG0I8YzS6A4Je+8je9sOtjAHBBnKhAvc\niBVgUmNysX3fXs96ZWu5jRg5\n-----END PRIVATE KEY-----\n",
+  "client_email": "compras@cmpraas.iam.gserviceaccount.com",
+  "client_id": "111913306050889835365",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/compras%40cmpraas.iam.gserviceaccount.com"
+  }
+]

@@ -1,0 +1,26 @@
+Feature: Módulo de notificaciones para sellers
+
+Como área de negocio
+Quiero que se tenga un modulo de notificaciones para sellers
+Para que de forma masiva se les puedan compartir comunicados
+y documentos de importancia para su operacion.
+
+Background:
+        Given estoy en el sitio web
+        And validar que se muestre el acceso al sistema
+        
+
+
+Scenario: Agregar un comunicado
+    And el usuario ha iniciado sesion con perfil de "Operador"
+    When Seleccionar el menú de "Notificaciones Seller" en la posición 5
+    Then debería ver una lista de comunicados previos y un botón "Agregar comunicado"
+    #Given hago clic en el botón "Agregar comunicado"
+    #Then debería ver un formulario para crear un nuevo comunicado con campos para el título, contenido y adjuntar una imagen o un archivo.
+
+#Scenario: Ver historial de comunicados
+#    Dado que estoy en el perfil de operador o administrador
+#    Cuando hago clic en el botón "Comunicados"
+#    Entonces debería ver una lista de comunicados previos y un botón "Agregar comunicado"
+#    Cuando hago clic en un comunicado previo
+#    Entonces debería ver el detalle del comunicado, incluyendo el título, contenido, fecha de creación y cualquier imagen o archivo adjunto.
