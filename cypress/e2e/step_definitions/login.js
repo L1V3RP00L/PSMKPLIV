@@ -20,6 +20,7 @@ Then("validar que se muestre el acceso al sistema", () => {
   
 });
 
+
 /*When("ingreso un usuario incorrecto y una contraseña correcta, y hace click en el botón de inicio de sesión", () => {
   loginPage.submitLogin("jcgascag@gmail.com","Liverpool1")
   
@@ -34,22 +35,64 @@ Then("Validar que se muestre Dashboard del usuario logeado", () => {
   
 });
 
-
-//When("ingreso un usuario administrador y una contraseña correcta, y hace click en el botón de inicio de sesión", () => {
-  
- /* beforeEach("ingreso un usuario administrador1",()=>{
-    loginPage.guardaSesion("jcgascag@liverpool.com.mx","Liverpool1")
-  })*/
-  //loginPage.submitLogin("jcgascag@liverpool.com.mx","Liverpool1")  
-  //loginPage.guardaSesion("jcgascag@liverpool.com.mx","Liverpool1")
-//});
-
-
-/*
-When("ingreso un usuario seller y una contraseña correcta, y hace click en el botón de inicio de sesión", () => {
-  loginPage.submitLogin("jcgasca.gu@gmail.com","Liverpool1")  
+Then("valido que se muestre el input para el correo electronico", () => {
+  loginPage.elements.usernameInput().should("be.visible");  
 });
-*/
+
+Then("valido que se muestre el input para la contraseña", () => {
+  loginPage.elements.passwordInput().should("be.visible");  
+});
+
+
+Then("valido que se muestre el botón iniciar sesión", () => {
+  loginPage.elements.loginBtn().should("be.visible");  
+});
+
+Then("¿Olvidaste tu contraseña? Restablecela aquí", () => {
+  loginPage.elements.olvidaste().should("be.visible");  
+});
+
+Then("*Campos Obligatorios", () => {
+  loginPage.elements.olvidaste().should("be.visible");  
+});
+
+Then("Validar que se muestre el placeholder Correo electrónico", () => {
+  loginPage.elements.placeholdeCorreo().should("be.visible");  
+});
+
+Then("Validar que se muestre el placeholder Contraseña", () => {
+  loginPage.elements.placeholdeContraseña().should("be.visible");  
+});
+
+Then("Validar que se muestre el botón iniciar sesión deshabilitado", () => {
+  loginPage.elements.loginBtnDeshabilitado().should("be.visible");  
+});
+
+When("ingreso un {string} en el campo de contraseña", (dato) => {
+  loginPage.elements.passwordInput().type(dato)  
+});
+
+When("el botón iniciar sesión se habilita", () => {
+  loginPage.elements.loginBtnDeshabilitado().should("not.be.visible"); 
+});
+
+When("ingreso un {string} en el campo de correo", (dato) => {
+  loginPage.elements.usernameInput().type(dato)  
+});
+
+When("Se muestra el texto {string} como alerta", (dato) => {
+  loginPage.elements.textP().contains(dato) 
+});
+
+Then("Validar que se muestre el texto Contraseña", () => {
+  loginPage.elements.placeholdeContraseña().should("be.visible");  
+});
+
+
+
+
+
+
 
 Then("el usuario ha iniciado sesion con perfil de {string}", (tipoUser) => {
   console.log("datos ingrssa ",tipoUser)

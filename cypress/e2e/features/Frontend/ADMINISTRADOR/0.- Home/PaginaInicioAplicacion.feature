@@ -8,19 +8,8 @@ Feature: MKPLIV-216 - MKPLIV-219 Página de inicio de la aplicación
     Background:
         Given estoy en el sitio web
 
-    Scenario: Página de acceso al sistema
-        Then validar que se muestre el acceso al sistema
-        
-    Scenario: En caso de que el usuario y/o  contraseña sean incorrectos se deberá informar al usuario.
-        Then validar que se muestre el acceso al sistema
-        When el usuario ha iniciado sesion con perfil de "incorrecto"
-        Then Validar que se muestre una Alerta con el mensaje de Usuario o contraseña incorrecta
-
-    Scenario: En caso de que el usuario y/o  contraseña sean correctos se deberá mostrar el Dashboard del usuario.
-        Then validar que se muestre el acceso al sistema
-        When el usuario ha iniciado sesion con perfil de "Seller"
-        Then Validar que se muestre Dashboard del usuario logeado
-
+    
+    @mobile
     Scenario: Validar que se muestren el menu correspondiente a un usuario Administrador/Operador
         Then validar que se muestre el acceso al sistema
         When el usuario ha iniciado sesion con perfil de "Administrador"
@@ -43,7 +32,7 @@ Feature: MKPLIV-216 - MKPLIV-219 Página de inicio de la aplicación
         Then Validar que se muestre el menú de "Administración de reportes" en la posición 15
         Then Validar que se muestre el menú de "Formularios" en la posición 16
         Then Validar que se muestre el menú de Administración de Envios
-
+    @mobile
     Scenario: Validar que si navego en algun de los módulos (Menú) disponibles, el sistema deberá permitirme regresar al home,
         Then validar que se muestre el acceso al sistema
         When el usuario ha iniciado sesion con perfil de "Seller"

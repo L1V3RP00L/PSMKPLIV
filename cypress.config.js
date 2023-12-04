@@ -32,14 +32,14 @@ module.exports = defineConfig({
   screenshotOnRunFailure: true,
   e2e: {
     setupNodeEvents,
-    //specPattern: "cypress/e2e/features/ADMINISTRADOR/0.- Home/*",
+    specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/0.- Home/*",
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/1.- AdministracionUsuarios/*",
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/2.- FacturacionPedidos/*",
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/3.- ConsultaCategorias/*",
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/4.- CargaInformacion/*",
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/5.- NotificacionesSeller/*",
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/16.-AdministracionEnvios/*",
-    specPattern: "cypress/e2e/features/Frontend/TODOS/*",
+    //specPattern: "cypress/e2e/features/Frontend/TODOS/*",
     
     baseUrl: "https://mkpsellerportal.liverpool.com.mx",    
     //baseUrl: "https://mkpsellerportal-qa.liverpool.com.mx",
