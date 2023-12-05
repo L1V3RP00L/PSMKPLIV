@@ -5,7 +5,7 @@ class LoginPage {
     passwordInput: () => cy.get('input[name="password"]',{timeout:20000}),
     ingresarBtn: () => cy.get('a[class="_header_header__form-label__Ipoz5"]').contains('Ingresar'),
     txtIniciarSesion: () => cy.get('div[class="_login_register_text__R115B"]',{timeout:20000}).contains('Iniciar sesión'),
-    loginBtn: () => cy.get('button[type="button"]').contains('Iniciar sesión'),
+    loginBtn: () => cy.get('button[type="button"]'),
     loginBtnDeshabilitado:() => cy.get('button[disabled]',{timeout:20000}),
     errorMessage: () => cy.get('div[class="MuiAlert-message css-1xsto0d"]',{timeout:20000}),
     dashboard: () => cy.get('div[class="_menu_menu__container__vBFpk"]',{timeout:10000}).contains('Dashboard'),
@@ -18,8 +18,16 @@ class LoginPage {
     placeholdeCorreo: () => cy.get('label[id=":r5:-label"]',{timeout:20000}).contains('Correo electrónico'),
     placeholdeContraseña: () => cy.get('label[id=":r6:-label"]',{timeout:20000}).contains('Contraseña'),
     textP: () => cy.get('p'),
+    txtForgotPassword: () => cy.get('div[class="_forgotPassword_forgot_text__uIZtr"]',{timeout:10000}),
+    txtPassword: () => cy.get('span[class="_forgotPassword_forgot_mandatory_fields__h8b_x"]',{timeout:10000}),
+    userInputForgotPassword: () => cy.get('input[id=":r7:"]',{timeout:20000}),
+    btnOjo: () => cy.get('button[class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk"]',{timeout:20000}),
+    volver: () => cy.get('button[class="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineHover MuiLink-button _forgotPassword_forgot_input_login__jWEyq MuiLink-button css-1hv17dv"]',{timeout:20000}),
+
     
+
     
+  
     
   };
 
@@ -37,14 +45,14 @@ class LoginPage {
   submitLogin(username,password){
     this.elements.usernameInput().type(username);
     this.elements.passwordInput().type(password);
-    this.elements.loginBtn().click();
+    this.elements.loginBtn().contains('Iniciar sesión').click();
   } 
 
   guardaSesion(username,password){
     cy.session("Login",()=>{
       this.elements.usernameInput().type(username);
       this.elements.passwordInput().type(password);
-      this.elements.loginBtn().click();
+      this.elements.loginBtn().contains('Iniciar sesión').click();
     })
   }
 

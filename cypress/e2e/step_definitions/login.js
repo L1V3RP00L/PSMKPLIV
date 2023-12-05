@@ -45,7 +45,7 @@ Then("valido que se muestre el input para la contraseña", () => {
 
 
 Then("valido que se muestre el botón iniciar sesión", () => {
-  loginPage.elements.loginBtn().should("be.visible");  
+  loginPage.elements.loginBtn().should("be.visible").contains('Iniciar sesión');  
 });
 
 Then("¿Olvidaste tu contraseña? Restablecela aquí", () => {
@@ -88,6 +88,43 @@ Then("Validar que se muestre el texto Contraseña", () => {
   loginPage.elements.placeholdeContraseña().should("be.visible");  
 });
 
+Then("seleccionar ¿Olvidaste tu contraseña? Restablecela aquí", () => {
+  loginPage.elements.olvidaste().should("be.visible").click();  
+});
+
+Then("se muestra el texto Restablecer Contraseña", () => {
+  loginPage.elements.txtForgotPassword().should("be.visible").contains('Restablecer Contraseña');  
+});
+
+Then("se muestra el texto Escribe el correo electrónico con el que fue creada tu cuenta", () => {
+  loginPage.elements.txtPassword().should("be.visible").contains('Escribe el correo electrónico con el que fue creada tu cuenta');;  
+});
+
+Then("ingreso un {string} para restablecer la contraseña", (dato) => {
+  loginPage.elements.userInputForgotPassword().should("be.visible").type(dato);  
+});
+
+Then("se muestra el icono del ojo en el campo de correo electronico", () => {
+  loginPage.elements.btnOjo().should("be.visible");  
+});
+
+Then("se muestra el link {string}", (dato) => {
+  loginPage.elements.volver().should("be.visible").contains(dato);  
+});
+
+Then("seleccionar el link {string}", (dato) => {
+  loginPage.elements.volver().should("be.visible").contains(dato).click();  
+});
+
+
+Then("seleccionar el botón Continuar", () => {
+  loginPage.elements.loginBtn().should("be.visible").contains('Continuar').click();  
+});
+
+
+Then("se muestra el texto {string}", (dato) => {
+  loginPage.elements.txtPassword().should("be.visible").contains(dato); 
+});
 
 
 
