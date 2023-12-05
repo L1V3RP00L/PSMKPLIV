@@ -32,7 +32,7 @@ module.exports = defineConfig({
   screenshotOnRunFailure: true,
   e2e: {
     setupNodeEvents,
-    specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/0.- Home/*",
+    specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/0.- LoginPage/*",
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/1.- AdministracionUsuarios/*",
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/2.- FacturacionPedidos/*",
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/3.- ConsultaCategorias/*",
@@ -40,12 +40,9 @@ module.exports = defineConfig({
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/5.- NotificacionesSeller/*",
     //specPattern: "cypress/e2e/features/Frontend/ADMINISTRADOR/16.-AdministracionEnvios/*",
     //specPattern: "cypress/e2e/features/Frontend/TODOS/*",
-    
-    baseUrl: "https://mkpsellerportal.liverpool.com.mx",    
-    //baseUrl: "https://mkpsellerportal-qa.liverpool.com.mx",
-    //baseUrl: "https://4pl.liverpool.com.mx/Web4PL/",
-    //baseUrl: "https://lookerstudio.google.com/u/0/reporting/9bd46bdd-37df-4814-a09b-16121bbdff50/page/CfScC?s=oUxd3TgxJLQ",
-    chromeWebSecurity: false,
+          
+    baseUrl: "https://mkpsellerportal-qa.liverpool.com.mx",
+   chromeWebSecurity: false,
     failOnStatusCode: false,
     env: {
       allureReuseAfterSpec: true,
